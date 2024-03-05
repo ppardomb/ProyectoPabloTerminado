@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.proyectopablo20.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditFragment"
+        android:name="com.example.proyectopablo20.CreditFragment"
+        android:label="fragment_credit"
+        tools:layout="@layout/fragment_credit" >
+        <action
+            android:id="@+id/action_creditFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.proyectopablo20.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.proyectopablo20.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.proyectopablo20.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_creditFragment"
+            app:destination="@id/creditFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_recyclerFragment"
+            app:destination="@id/recyclerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailItemFragment"
+        android:name="com.example.proyectopablo20.DetailItemFragment"
+        android:label="DetailItemFragment" >
+        <action
+            android:id="@+id/action_detailItemFragment_to_recyclerFragment"
+            app:destination="@id/recyclerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyclerFragment"
+        android:name="com.example.proyectopablo20.RecyclerFragment"
+        android:label="fragment_recycler"
+        tools:layout="@layout/fragment_recycler" >
+        <action
+            android:id="@+id/action_recyclerFragment_to_detailItemFragment"
+            app:destination="@id/detailItemFragment" />
+        <action
+            android:id="@+id/action_recyclerFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_recyclerFragment_to_favoritosFragment"
+            app:destination="@id/favoritosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritosFragment"
+        android:name="com.example.proyectopablo20.FavoritosFragment"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos" >
+        <action
+            android:id="@+id/action_favoritosFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.proyectopablo20.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+</navigation>

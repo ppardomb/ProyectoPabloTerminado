@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/recyclerFragment"
+    android:icon="@drawable/lupa"
+    android:title="Primero"/>
+    <item
+        android:id="@+id/favoritosFragment"
+        android:icon="@drawable/estrella"
+        android:title="Primero"/>
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/persona"
+        android:title="Primero"/>
+</menu>

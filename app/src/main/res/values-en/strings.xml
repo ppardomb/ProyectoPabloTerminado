@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoPablo2.0</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movil">Phone</string>
+    <string name="marca">Brand</string>
+    <string name="tamano">Size</string>
+    <string name="volver">Back</string>
+    <string name="texto">This application is an application that belongs to the emerging company for the purchase and sale of electronic devices called PulseTech</string>
+    <string name="texto2">Welcome to our technology application, where you can stay up to date with the latest news and advances in the world of technology. Explore articles, reviews, tutorials and more to stay informed and make the most of your digital experience.</string>
+
+    <string name="favoritos">Favorites</string>
+    <string name="creditos">Credits</string>
+    <string name="lista">List</string>
+    <string name="detalles">Details</string>
+
+</resources>

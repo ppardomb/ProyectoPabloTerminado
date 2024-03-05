@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProyectoPablo2.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movil">movil</string>
+    <string name="marca">marca</string>
+    <string name="tamano">Tamaño</string>
+    <string name="volver">Volver</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="creditos">Creditos</string>
+    <string name="lista">Lista</string>
+    <string name="detalles">Detalles</string>
+
+
+    <string name="texto">Esta aplicación, es una aplicación que pertence a la empresa emergente de compraventa de dispositivos eléctronicos llamada PulseTech</string>
+    <string name="texto2">Bienvenido a nuestra aplicación de tecnología, donde podrás estar al día con las últimas novedades y avances en el mundo de la tecnología. Explora artículos, reseñas, tutoriales y más para mantenerte informado y aprovechar al máximo tu experiencia digital.</string>
+
+</resources>
